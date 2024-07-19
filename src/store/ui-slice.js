@@ -1,22 +1,22 @@
-import { createSlice } from "@reduxjs/toolkit";
+// import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = {
-    showCart: false,
-    notification: null,
-}
+// const initialState = {
+//     showCart: false,
+//     notification: null,
+// }
 
-const uiSlice = createSlice({
-    name: 'ui',
-    initialState,
-    reducers: {
-        toggleCart(state) {
-            state.showCart = !state.showCart;
-        },
-        changeNotification(state, action) {
-            state.notification = { ...action.payload }
-        },
-    }
-})
+// const uiSlice = createSlice({
+//     name: 'ui',
+//     initialState,
+//     reducers: {
+//         toggleCart(state) {
+//             state.showCart = !state.showCart;
+//         },
+//         changeNotification(state, action) {
+//             state.notification = { ...action.payload }
+//         },
+//     }
+// })
 
-export default uiSlice.reducer;
-export const uiActions = uiSlice.actions;
+// export default uiSlice.reducer;
+// export const uiActions = uiSlice.actions;
